@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sweet Coffee</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/imagens/icone.ico" type="image/x-icon">
+
+         <!--        Menu Responsivo -->
+         <script src="https://kit.fontawesome.com/3a591bff9c.js" crossorigin="anonymous"></script>
+         <!-- Função Menu Responsivo - Teste -->
+         <script>		function myFunction() {
+             document.getElementsByClassName("menu")[0].classList.toggle("responsive");}
+         </script>
+
+<!-- TABS - animação -->
+        <script>
+            //JS das TABs
+            function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#home"><img src="imagens/logo-sweet.png"></a>
+                <ul class="menu">
+                    
+
+                    <li><a href="#cardapio">CARDÁPIO</a></li>
+                    <li><a href="#unidades">UNIDADES</a></li>
+                    <li><a href="#delivery">DELIVERY</a></li>
+                    <li><a href="#sobrenos">SOBRE NÓS</a></li>
+
+                    <!--             Linha adicionada para o menu responsivo -->
+                    <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <div class="imagem">
+                <div class="imagemcoluna1">
+                <h1>Café & Mais: <br>conheça novos sabores</h1>
+                <p>Conheça uma experiência sensorial única em nossa cafeteria, onde exploramos os novos sabores do café. Nossa equipe apaixonada e especializada está constantemente em busca de grãos raros e cultivados com cuidado, trazendo uma seleção exclusiva de cafés.Permita-se desfrustar de uma jornada de descoberta, enquanto mergulha nos novos e irresistíveis sabores da Sweet Coffee.</p>
+                </div>
+                <img src="imagens/cafe-3d.png">
+                </div>
+                <button id="botaosaibamais"><a href="#">SAIBA MAIS</a></button>
+            </section>
+
+            <section id="cardapio">
+                <h1>CARDÁPIO</h1>
+
+                    <section id="tabs">
+                        <!-- html tab menu / conteúdo -->
+                        <!-- Tab links -->
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'Paris')"><img src="imagens/cafequente_1-8.png"></button>
+                            <button class="tablinks" onclick="openCity(event, 'Tokyo')"><img src="imagens/cafegelado-8.png"></button>
+                            <button class="tablinks" onclick="openCity(event, 'London')"><img src="imagens/croissant-8.png"></button>
+                        
+                        
+                        <div class="imagens">
+                            <div id="London" class="tabcontent">
+                                <img src="imagens/pexels-r-khalil-768042.jpg" width="300px">
+                                <p>Delicie-se com a crocância e o sabor irresistível do nosso croissant. Feito com massa folhada fresca e cuidadosamente preparada, cada mordida revela camadas macias e delicadas. Desde o clássico croissant de manteiga até opções recheadas, Acompanhe com um café expresso para uma experiência perfeita na Sweet Coffee</p>
+
+                                <h3>Croissant</h3>
+                            </div>
+                            
+                            <div id="Paris" class="tabcontent">
+                                <img src="imagens/cafe-expresso.png" width="300px">
+                                <p>Experimente a intensidade e a cremosidade única do nosso café expresso, com aromas cativantes e um sabor equilibrado. Seja para começar o dia ou para uma pausa revigorante. Venha saborear um momento especial na Sweet Coffee</p>
+
+                                <h3>Café expresso</h3>
+                            </div>
+                            
+                            <div id="Tokyo" class="tabcontent">
+                                <img src="imagens/pexels-mizuno-k-13735952.jpg" width="300px">
+                                <p>Refresque-se com a delícia e cremosa experiência do nosso Frappuccino na nossa cafeteria. Combinando café gelado, leite e uma seleção de sabores irresistíveis. Cada gole do nosso Frappuccino é uma explosão de sabor e textura, perfeito para dias quentes. Venha experimentar o Frappuccino que irá te conquistar na Sweet Coffee</p>
+
+                                <h3>Frappuccino</h3>
+                            </div>
+                        </div>
+                    </section>
+
+                <nav id="bebidasquentes">
+                </nav>
+                <h3>Para Acompanhar</h3>
+                
+
+                <div id="imagensparaacompanhar">
+                    
+                
+                    <div class="imagenscomidas">
+                    <img src="imagens/torta-8.png">
+                    </div>                    
+
+                    <div class="imagenscomidas">
+                    <img src="imagens/pretzel-8.png">
+                    </div>
+
+                    <div class="imagenscomidas">
+                    <img src="imagens/donuts-8.png">
+                    </div>
+
+                    <div class="imagenscomidas">
+                    <img src="imagens/pao-8.png">
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="unidades">
+               
+                <div class="formas">
+
+                <div class="formadireita">
+
+                </div>
+                <div class="formaesquerda">
+        
+                    
+                </div>
+            </div>
+
+                <div class="supergaleria">
+                    
+                    <h1>UNIDADES</h1>
+
+                <div class="galeriadecima">
+                    <div class="imagemgaleria">
+                        <img src="imagens/avenida-paulista.png">
+                        <p class="titulo1">Lorem ipsum</p>
+                        <p><bold>Lorem ipsum dolor sit amet</bold></p>
+                    </div>
+
+                    <div class="imagemgaleria">
+                        <img src="imagens/estacao-luz.png">
+                        <p class="titulo1">Lorem ipsum</p>
+                        <p><bold>Lorem ipsum dolor sit amet</bold></p>
+                    </div>
+                </div>
+
+                <div class="galeriadebaixo">
+                    <div class="imagemgaleria">
+                        <img src="imagens/ibirapuera.png">
+                        <p class="titulo1">Lorem ipsum</p>
+                        <p><bold>Lorem ipsum dolor sit amet</bold></p>
+                    </div>
+
+
+                    <div class="imagemgaleria">
+                        <img src="imagens/brooklyn.png">
+                        <p class="titulo1">Lorem ipsum</p>
+                        <p><bold>Lorem ipsum dolor sit amet</bold></p>
+                    </div>
+
+                </div>
+            </div>
+            </section>
+
+            <section id="delivery">
+                <h1>DELIVERY</h1>
+
+                <div class="banner">
+                <img src="imagens/banner.png">
+                </div>
+
+            </section>
+
+
+            <section id="sobrenos">
+
+                <h1>SOBRE NÓS</h1>
+                <img src="imagens/cafe-ilustracao.png" width="300px">
+                <p>Somos uma cafeteria dedicada a oferecer uma experiência única e encantadora para os amantes dessa bebida tão amada. Com grãos cuidadosamente selecionados e torrados, nossa equipe de barista talentosos, cria deliciosas obras de artes líquidas. Nosso ambiente acolhedor e aconchegante convida você a desfrutar momentos de prazer e cnexão. Estamos comprometidos em servir café de qualidade excepcional, acompanhado de sorrisos calorosos. Descubra a doçurado café na Sweet Coffee!</p>
+
+            </section>
+
+
+            <section id="feedback">
+
+                <div class="card1">
+                <img src="imagens/card1.jpg">
+                <p style="color: #027373;">Jéssica</p>
+                <p>"Amei a variedade de opções de cafés. A única sugestão seria de ampliar as opções de alimentos para acompanhar as bebidas"</p>
+                    <div class="avaliacao">
+                        <img src="imagens/avaliacao1-8.png">
+                    </div>
+                </div>
+
+                <div class="card2">
+                <img src="imagens/card2.jpg">
+                <p style="color: #027373;">Natália</p>
+                <p>"Amei os cafés e o ambiente é super agradável. Os baristas são simpáticos e atenciosos. Recomendo Muito!"</p>
+                    <div class="avaliacao">
+                        <img src="imagens/avaliacao2-8.png">
+                    </div> 
+                </div>
+
+                <div class="card3">
+                <img src="imagens/card3.jpg">
+                <p style="color: #027373;">Giovana</p>
+                <p>"Simplesmente incrível! O café é delicioso, os baristas são extremamente talentosos e o ambiente acolhedor."</p>
+                    <div class="avaliacao">
+                        <img src="imagens/avaliacao2-8.png">
+                    </div>    
+                </div>
+
+
+
+            </section>
+
+        </main>
+      
+        <footer>
+            
+            <form class="form">
+                <span class="title">Receba nossa newsletter.</span>
+                <p class="description">Para saber das novidades e acompanhar as promoções, assine nossa Newsletter e fique por dentro de tudo!</p>
+                <div>
+                  <input placeholder="Digite seu e-mail favorito" type="email" name="email" id="email-address">
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+            
+
+        </footer>
+
+                <!-- Função Menu Responsivo - Teste -->
+                <script>       function myFunction() {
+                    document.getElementsByClassName("menu")[0].classList.toggle("responsive");}
+                </script>
+        
+    </body>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+</html>

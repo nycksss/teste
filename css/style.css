@@ -1,0 +1,1550 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+  width:100%;
+  margin:auto;
+}
+/* MENUS */
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #f2e7dc;
+    z-index:10;
+}
+
+nav{
+    font-family: 'Broadway';
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+}
+
+ul{
+    width: 650px;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #038c7f;
+    border-radius: 5px;
+    width: 110px;
+    height: 20px;
+    padding: 5px;
+    color: #038c7f;
+    font-size: 15pt;
+}
+
+li a:hover{
+    background-color: #038c7f;
+    color: #f2e7dc;
+}
+
+
+/* HOME */
+
+h1{
+    font-family: 'Broadway';
+    font-size: 46pt;
+    margin-top: 55px;
+    margin-left: 30px;
+    color: #038c7f;
+}
+
+#home p{
+    width: 800px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22pt
+
+}
+
+#home img{
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+    margin: auto;
+
+}
+
+
+#botaosaibamais{
+    font-family: 'Broadway';
+    width: 166px;
+    height: 41px;
+    border-radius: 10px;
+    background-color: #038c7f;
+    border: none;
+    margin-left: 240px;
+    font-size: 15pt;
+    text-decoration: none;
+    cursor: pointer;
+    color: #f2e7dc;
+    margin-top: 30px;
+}
+
+#botaosaibamais a{
+    color: #f2e7dc;
+    text-decoration: none;
+}
+
+#botaosaibamais:hover{
+    background-color: #f2e7dc;
+}
+
+#botaosaibamais:hover a{
+    color: #038c7f;
+}
+
+#botaosaibamais :hover{
+    color: #038c7f;
+    
+}
+
+.imagem{
+    display: flex;
+    margin-bottom: -78px;
+}
+
+
+/* CARDAPIO */    
+
+#cardapio h1{
+    text-align: center;
+    color: #038c7f;
+}
+
+
+
+  
+
+  /* Opções bebidas quentes*/
+
+#bebidasquentes li{
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #038c7f;
+    border-radius: 7px;
+    padding: 10px;
+    width: 143px;
+    font-size: 14pt;
+    text-align: center;
+    color: #038c7f;
+  }
+
+  #bebidasquentes ul{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+  }
+  
+
+
+#bebidasquentes li:hover{
+    background-color: #038c7f;
+    color: #f2e7dc;
+    cursor: pointer;
+  }
+
+
+
+#tabs p{
+  width:1000px;
+  line-height: 24pt;
+  display: flex;
+  margin-top: -400px;
+  margin-left: 400px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18pt;
+}
+
+
+.tabcontent h3{
+  color: #f2e7dc;
+  border: 1px solid #038c7f;
+  border-radius: 10px;
+  background-color: #038c7f;
+  width: 200px;
+  height: 25px;
+  margin: auto;
+  margin-top: 30px;
+
+
+}
+/* Para acompanhar */
+
+h3{
+  text-align: center;
+  color: #038c7f;
+  font-family: 'Montserrat' , sans-serif;
+  font-family: 22pt;
+  margin-top: -100px;
+  margin-bottom: 110px;
+}
+
+
+.imagenscomidas {
+  margin: 20px;
+
+}
+
+#imagensparaacompanhar{
+  display: flex;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 100px;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.imagens img{
+  margin-left: 70px;
+  border-radius: 30px;
+}
+
+/* Unidades */
+
+#unidades h1{
+  text-align: center;
+  height:100px;
+  margin-bottom:0;
+  margin-left: 0px;
+}
+
+#unidades{
+  width:100%;
+
+}
+
+.supergaleria{
+  margin: 0;
+  margin-top:200px;
+  margin-top: -650px;
+  background-image: url(/imagens/desenhodireita1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+ 
+  
+}
+
+.galeriadecima{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-bottom: 100px;
+  margin:auto;
+  margin-top: 60px;
+  box-shadow: #0d0d0d;
+
+  
+}
+
+.imagemgaleria{
+  width: 500px;
+  
+}
+.imagemgaleria img{
+  width: 500px;
+  box-shadow: 2px 5px 5px #0d0d0d;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.imagemgaleria p bold{
+  color: #027373;
+}
+
+.galeriadebaixo{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+/* DELIVERY */
+
+.banner img{
+  margin: auto;
+  width: 100%;
+
+}
+
+.banner{
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+
+}
+
+#delivery h1{
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* SOBRE NOS */
+
+#sobrenos p{
+  width: 700px;
+  margin-bottom: 100px;
+  line-height: 24pt;
+  margin-top: -400px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16pt;
+  margin-left: 600px;
+  text-align: center;
+
+
+
+}
+
+#sobrenos h1{
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#sobrenos img{
+  margin-bottom: 100px;
+  margin-left: 200px;
+  background-color: #85c9b8;
+  border-radius: 20px;
+}
+
+
+
+/* Feedbacks */
+
+#feedback{
+  width:1200px;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+
+
+
+.card1{
+  width:300px;
+  height:375px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+}
+
+.card1 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+.card1 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.card2{
+  width:300px;
+  height:375px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+  
+}
+
+.card2 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+.card2 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.card3{
+  width:300px;
+  height:375px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+}
+
+.card3 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+.card3 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.avaliacao img{
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.card1:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card1:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card2:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card2:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card3:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card3:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  background-color: #0d0d0d;
+  padding-top: 100px;
+  width:100%;
+  margin:auto;
+  text-align:center;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #038c7f;
+  background: -webkit-linear-gradient(to right, #027373, #5a8c7f);
+  background: linear-gradient(to right, #027373, #5a8c7f);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 350px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #f2e7dc;
+}
+
+.description {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #f2e7dc;
+}
+
+.form div {
+  display: flex;
+  max-width: 28rem;
+  margin-top: 1rem;
+  column-gap: 0.5rem;
+}
+
+.form div input {
+  outline: none;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  color: rgb(255 255 255 );
+  padding: 0.5rem 0.875rem;
+  background-color: rgb(255 255 255 / 0.05);
+  border: 1px solid rgba(253, 253, 253, 0.363);
+  border-radius: 0.375rem;
+  flex: 1 1 auto;
+}
+
+.form div input::placeholder {
+  color: rgb(216, 212, 212);
+}
+
+.form div input:focus {
+  border: 1px solid #85c9b8;
+}
+
+.form div button {
+  color: #027373;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.625rem 0.875rem;
+  background-color: #f2e7dc;
+  border-radius: 0.375rem;
+  border: none;
+  outline: none;
+}
+
+.form div button:hover{
+  color: #f2e7dc;
+  background-color: #027373;
+  cursor: pointer;
+}
+
+
+/* Texto Galeria */
+
+.imagemgaleria p{
+  color: black;
+  font-family: 'Montserrat' , sans-serif;
+  text-align: center;
+}
+
+#unidades img{
+  border-radius: 20px;
+}
+
+/* FORMAS DA GALERIA */
+
+
+.formadireita{
+  width:0px;
+  height:524px;
+  float:right;
+  z-index: -5;
+  
+  
+}
+
+.formaesquerda{
+  background-image: url(/imagens/desenhoesquerda.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width:251px;
+  height:567px;
+  z-index: -5;
+
+
+  
+
+}
+
+.formaesquerda img{
+  margin-top:-300px;
+}
+
+
+
+
+
+
+/* JS COM CSS PARA FOTOS */
+
+
+
+
+/* css tabs */
+/* Style the tab */
+.tab {
+overflow: hidden;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-color: #a9d9d0;
+border-radius: 30px;
+margin: 5px;
+
+}
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: #85c9b8;
+border-radius: 30px;
+}
+
+/* Style the tab content */
+.tabcontent {
+display: none;
+padding: 6px 12px;
+border-top: none;
+height: 400px;
+}
+
+.tabcontent p{
+  width: 80%;
+  text-align: center;
+}
+
+#tabs p{
+  width: 800px;
+  font-size: 16pt;
+}
+
+.tabcontent h3{
+  color: #f2e7dc;
+  border: 1px solid #038c7f;
+  border-radius: 10px;
+  background-color: #038c7f;
+  width: 200px;
+  height: 25px;
+  margin: auto;
+  margin-top: 30px;
+
+}
+
+/* CSS tabs - parte 2 (transição) */
+.tabcontent {
+animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+.icon{
+  display: none;
+}
+
+main{
+  width:100%;
+  margin:auto;
+}
+
+@media (max-width: 1169px){
+
+  /* Menu */
+  
+  li a{
+    font-size: 16px;
+    font-weight: 100px;
+  }
+
+    main{
+      width:100%;
+      margin:auto;
+    }
+
+
+    
+/* HOME */
+
+h1{
+  font-family: 'Broadway';
+  font-size: 36pt;
+  margin-top: 45px;
+  margin-left: 20px;
+  color: #038c7f;
+}
+
+#home p{
+  width: 600px;
+  margin-right: 30px;
+  font-size: 18pt;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#home img{
+  width: 500px;
+  height: 500px;
+  margin-top: 15px;
+
+}
+
+#botaosaibamais{
+  font-family: 'Broadway';
+  width: 166px;
+  height: 41px;
+  border-radius: 10px;
+  background-color: #038c7f;
+  border: none;
+  margin-left: 140px;
+  font-size: 15pt;
+  text-decoration: none;
+  cursor: pointer;
+  color: #f2e7dc;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+#botaosaibamais a{
+  color: #f2e7dc;
+  text-decoration: none;
+}
+
+
+
+/*                     CARDAPIO                         */    
+
+#cardapio h1{
+  text-align: center;
+  color: #038c7f;
+}
+
+
+/*                  Opções bebidas quentes               */
+
+#bebidasquentes li{
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #038c7f;
+  border-radius: 7px;
+  padding: 10px;
+  width: 143px;
+  font-size: 14pt;
+  text-align: center;
+  color: #038c7f;
+}
+
+#bebidasquentes ul{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.tabcontent p{
+  width: 700px;
+  text-align: center;
+}
+
+
+
+#tabs p{
+width: 60%;
+line-height: 20pt;
+display: flex;
+margin-left: 400px;
+font-family: 'Montserrat', sans-serif;
+font-size: 15pt;
+margin-top: -400px;
+}
+
+#tabs h3{
+margin-top: 20px;
+margin-left: 600px;
+  
+}
+
+
+
+/*                   Para acompanhar                 */
+
+h3{
+text-align: center;
+color: #038c7f;
+font-family: 'Montserrat' , sans-serif;
+font-family: 22pt;
+margin-bottom: 25px;
+margin-top: -60px;
+
+
+}
+
+
+.imagenscomidas {
+margin: 20px;
+
+
+
+
+}
+
+#imagensparaacompanhar{
+display: flex;
+width: 700px;
+margin: auto;
+margin-bottom: 100px;
+justify-content: center;
+
+
+
+}
+
+.imagens img{
+margin-left: 70px;
+border-radius: 30px;
+}
+
+/*                  UNIDADES            */
+
+#unidades h1{
+  text-align: center;
+  height:100px;
+  margin-bottom:0;
+  margin-left: 0px;
+}
+
+#unidades{
+  width:100%;
+
+}
+
+.supergaleria{
+  margin: 0;
+  margin-top:200px;
+  margin-top: -650px;
+  background-image: url(/imagens/desenhodireita1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+ 
+  
+}
+
+.galeriadecima{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-bottom: 100px;
+  margin:auto;
+  margin-top: 60px;
+  box-shadow: #0d0d0d;
+  cursor: pointer;
+
+  
+}
+
+.imagemgaleria{
+  width: 500px;
+  
+}
+.imagemgaleria img{
+  width: 380px;
+  box-shadow: 2px 5px 5px #0d0d0d;
+  margin-bottom: 10px;
+}
+
+.imagemgaleria p bold{
+  color: #027373;
+}
+
+
+.galeriadebaixo{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+
+.formadireita{
+  width:0px;
+  height:524px;
+  float:right;
+  z-index: -5;
+  
+  
+}
+
+.formaesquerda{
+  background-image: url(/imagens/desenhoesquerda.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width:251px;
+  height:567px;
+  z-index: -5;
+
+
+  
+
+}
+
+.formaesquerda img{
+  margin-top:-300px;
+}
+
+
+
+/* SOBRE NOS */
+
+#sobrenos p{
+  width: 730px;
+  margin-bottom: 100px;
+  line-height: 24pt;
+  margin-top: -400px;
+  margin-left: 400px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18pt;
+
+
+
+}
+
+#sobrenos h1{
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#sobrenos img{
+  margin-bottom: 100px;
+  margin-left: 60px;
+  background-color: #85c9b8;
+  border-radius: 20px;
+}
+
+
+
+/* Feedbacks */
+
+#feedback{
+  width:1200px;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-left: 20px;;
+}
+
+
+
+.card1{
+  width:250px;
+  height:375px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+  padding-bottom: 50px;
+}
+
+.card1 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.card1 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.card2{
+  width:250px;
+  height:375px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+  padding-bottom: 50px;
+}
+
+.card2 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.card2 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.card3{
+  width:250px;
+  height:375px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+  margin-right: 100px;
+  padding-bottom: 50px;
+}
+
+.card3 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.card3 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.avaliacao img{
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.card1:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card1:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card2:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card2:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card3:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card3:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+
+
+
+
+  }
+
+
+
+
+
+ 
+
+
+
+
+
+  @media (max-width:767px) {
+    
+    main{
+      width: 100%;
+    }
+    
+    ul.menu li {
+      width:440px;
+      display: none;}
+  
+  ul.menu li.icon {
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      float: right; /*O ícone será exibido ao lado direito*/
+      text-align:right;
+      }
+
+      ul.menu.responsive {
+      position:absolute;
+      display:inline-block;
+      align-items: center;
+      width:100%;
+      background: rgba(0,0,0,0.75); /*Fundo cinza*/
+      padding-top:15px;
+      line-height:1.5;
+      margin-top: 80px;
+    }
+
+    ul.menu.responsive li.icon {
+      position: absolute;
+      display:inline-flex;
+      align-items:center;
+      margin-left:10px;
+      top: 20px;
+      left: 600px;
+    }
+
+    ul.menu.responsive li {
+      float: none;
+      padding-bottom:5px;
+      display: block;
+      width:600px;
+    }
+
+    ul.menu.responsive li a {
+      color:white;
+      display:block;
+      justify-content:space-between;
+      text-align:center;
+      width:auto;
+      border-bottom:0;
+      margin-top: 10px;
+    }
+
+    
+
+   
+    /* HOME */
+
+h1{
+  font-family: 'Broadway';
+  font-size: 36pt;
+  margin-top: 45px;
+  margin-left: 20px;
+  color: #038c7f;
+  text-align: center;
+}
+
+
+#home p{
+  width: 700px;
+  font-size: 19pt;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+  
+
+}
+
+#home img{
+  display: none;
+
+}
+
+#botaosaibamais{
+  font-family: 'Broadway';
+  width: 166px;
+  height: 41px;
+  border-radius: 10px;
+  background-color: #038c7f;
+  border: none;
+  margin-left: 300px;
+  font-size: 15pt;
+  text-decoration: none;
+  cursor: pointer;
+  color: #f2e7dc;
+  margin-top: 100px;
+  
+}
+
+#botaosaibamais a{
+  color: #f2e7dc;
+  text-decoration: none;
+}
+
+
+
+/*                     CARDAPIO                         */    
+
+#cardapio h1{
+  text-align: center;
+  color: #038c7f;
+}
+
+
+/*                  Opções bebidas quentes               */
+
+#bebidasquentes li{
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #038c7f;
+  border-radius: 7px;
+  padding: 10px;
+  width: 143px;
+  font-size: 14pt;
+  text-align: center;
+  color: #038c7f;
+}
+
+#bebidasquentes ul{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.tabcontent p{
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+#tabs p{
+
+line-height: 20pt;
+display: flex;
+margin-left: 400px;
+font-family: 'Montserrat', sans-serif;
+font-size: 15pt;
+margin-top: -290px;
+margin-left: 290px;
+}
+
+#tabs h3{
+margin-top: 20px;
+margin-left: 400px;
+
+  
+}
+
+.tabcontent img{
+  width: 200px;
+  margin-top: 20px;
+}
+
+
+/*                   Para acompanhar                 */
+
+h3{
+text-align: center;
+color: #038c7f;
+font-family: 'Montserrat' , sans-serif;
+font-family: 22pt;
+margin-bottom: -120px;
+
+}
+
+
+.imagenscomidas {
+margin: 20px;
+margin-bottom: 100px;
+
+}
+
+#imagensparaacompanhar{
+display: flex;
+width: 700px;
+margin: auto;
+margin-bottom: 100px;
+justify-content: center;
+margin-top: 130px;
+}
+
+.imagens img{
+margin-left: 70px;
+border-radius: 30px;
+}
+
+
+
+/*                  UNIDADES            */
+
+#unidades h1{
+  text-align: center;
+  height:100px;
+  margin-bottom:0;
+  margin-left: 0px;
+  margin-top: -200px;
+}
+
+#unidades{
+  width:100%;
+
+
+}
+
+.supergaleria{
+  margin: 0;
+  margin-top:200px;
+  margin-top: -650px;
+  background-image: url(/imagens/desenhodireita1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+ 
+  
+}
+
+.galeriadecima{
+  width: 75%;
+  margin:auto;
+  margin-top: 40px;
+  box-shadow: #0d0d0d;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-left: 300px;
+
+  
+}
+
+.imagemgaleria{
+  width: 500px;
+  margin-top: 20px;
+  
+}
+.imagemgaleria img{
+  width: 300px;
+  box-shadow: 2px 5px 5px #0d0d0d;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: -70px;
+
+}
+
+.imagemgaleria p bold{
+  margin-left: -340px;
+
+}
+
+.titulo1{
+  font-family: 'Montserrat',sans-serif;
+  margin-left: -320px;
+}
+
+.galeriadebaixo{
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-left: 300px;
+
+}
+
+
+.formadireita{
+  width:0px;
+  height:524px;
+  float:right;
+  z-index: -5;
+  
+  
+}
+
+.formaesquerda{
+  background-image: url(/imagens/desenhoesquerda.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width:251px;
+  height:567px;
+  z-index: -5;
+
+
+  
+
+}
+
+.formaesquerda img{
+  margin-top:-300px;
+}
+
+
+
+/* SOBRE NOS */
+
+#sobrenos p{
+  width: 600px;
+  margin-bottom: 100px;
+  line-height: 24pt;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 75px;
+
+
+
+}
+
+#sobrenos h1{
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#sobrenos img{
+  display: none;
+}
+
+
+/* Feedbacks */
+
+#feedback{
+  width:100px;
+  margin:auto;
+  display:block;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-left: 250px;
+
+}
+
+
+
+.card1{
+  width:250px;
+  height:435px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+  margin-bottom: 40px;
+}
+
+.card1 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.card1 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.card2{
+  width:250px;
+  height:410px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+  margin-bottom: 40px;
+}
+
+.card2 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.card2 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.card3{
+  width:250px;
+  height:410px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius:20px;
+  margin-right: 110px;
+}
+
+.card3 img{
+  width:150px;
+  border-radius:50%;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.card3 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.avaliacao img{
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.card1:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card1:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card2:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card2:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card3:hover{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+.card3:active{
+  border: 2px solid #038c7f;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
